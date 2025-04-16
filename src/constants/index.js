@@ -134,7 +134,7 @@ const technologies = [
 
 const experiences = [
   {
-    title: "Software Engineer",
+    title: "Software Engineer Intern",
     company_name: "ClassHook",
     icon: classhook,
     iconBg: "#383E56",
@@ -144,7 +144,7 @@ const experiences = [
     ],
   },
   {
-    title: "Backend Engineer",
+    title: "Backend Engineer Intern",
     company_name: "SkyIT Services",
     icon: skyit,
     iconBg: "#E6DEDD",
