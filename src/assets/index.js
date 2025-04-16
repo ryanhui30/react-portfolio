@@ -7,6 +7,7 @@ import web from "./web.png";
 import linkedin from "./linkedin.png";
 import cv from "./cv.png";
 import github from "./github.png";
+import link from "./link.png";
 
 import menu from "./menu.svg";
 import close from "./close.svg";
@@ -37,6 +38,10 @@ import carrent from "./carrent.png";
 import jobit from "./jobit.png";
 
 import tripguide from "./tripguide.png";
+
+
+import promanage from "./promanage.png";
+import goatnotes from "./goatnotes.png";
 import vert from "./vert.png";
 import warriorsgo from "./warriorsgo.png";
 import pacman from "./pacman.png";
@@ -55,6 +60,7 @@ export {
   linkedin,
   github,
   cv,
+  link,
 
   menu,
   close,
@@ -83,6 +89,9 @@ export {
   jobit,
 
   tripguide,
+
+  promanage,
+  goatnotes,
   vert,
   warriorsgo,
   pacman,

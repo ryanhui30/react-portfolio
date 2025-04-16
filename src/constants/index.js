@@ -20,6 +20,7 @@ import {
   linkedin,
   github,
   cv,
+  link,
 
   meta,
   starbucks,
@@ -32,8 +33,10 @@ import {
   jobit,
   tripguide,
 
-  vert,
+  promanage,
+  goatnotes,
   warriorsgo,
+  vert,
   pacman,
   maintenance,
 
@@ -172,35 +175,96 @@ const testimonials = [
 ];
 
 const projects = [
-  {
-    name: "Warriors Go",
-    description:
-    "App providing real-time game scores, stats, live chat, and news updates using third-party sports APIs.",
-    tags: [
-      {
-        name: "html",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "bootstrap",
-        color: "green-text-gradient",
-      },
-      {
-        name: "flutter",
-        color: "pink-text-gradient",
-      },
-      {
-        name: "javascript",
-        color: "orange-text-gradient",
-      },
-      {
-        name: "firebase",
-        color: "purple-text-gradient",
-      },
-    ],
-    image: warriorsgo,
-    source_code_link: "https://warriors-go.vercel.app/",
-  },
+    {
+      name: "ProManage",
+      description:
+        "Full-stack project management app with team collaboration boards, drag-and-drop features, and project analytics.",
+      tags: [
+        {
+          name: "next.js",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "typescript",
+          color: "green-text-gradient",
+        },
+        {
+          name: "AWS",
+          color: "pink-text-gradient",
+        },
+        {
+          name: "tailwind",
+          color: "orange-text-gradient",
+        },
+        {
+          name: "redux",
+          color: "purple-text-gradient",
+        },
+      ],
+      image: promanage,
+      source_code_link: "https://github.com/ryanhui30/pro-manage", // GitHub link
+      deployed_link: "https://main.d1pqkryapw8kiy.amplifyapp.com/" // Deployed link
+    },
+    {
+      name: "GoatNotes",
+      description:
+        "AI-powered notes app with ChatGPT integration. Save notes and get AI summaries, key points, and more.",
+      tags: [
+        {
+          name: "next.js",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "react",
+          color: "green-text-gradient",
+        },
+        {
+          name: "supabase",
+          color: "pink-text-gradient",
+        },
+        {
+          name: "shadcn",
+          color: "orange-text-gradient",
+        },
+        {
+          name: "prisma",
+          color: "purple-text-gradient",
+        },
+      ],
+      image: goatnotes,
+      source_code_link: "https://github.com/ryanhui30/goat-notes", // GitHub link
+      deployed_link: "https://goat-notes-mu.vercel.app/" // Deployed link
+    },
+    {
+      name: "Warriors Go",
+      description:
+        "App providing real-time game scores, stats, live chat, and news updates using third-party sports APIs.",
+      tags: [
+        {
+          name: "html",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "bootstrap",
+          color: "green-text-gradient",
+        },
+        {
+          name: "flutter",
+          color: "pink-text-gradient",
+        },
+        {
+          name: "javascript",
+          color: "orange-text-gradient",
+        },
+        {
+          name: "firebase",
+          color: "purple-text-gradient",
+        },
+      ],
+      image: warriorsgo,
+      source_code_link: "https://github.com/ryanhui30/warriors-go", // GitHub link
+      deployed_link: "https://warriors-go.vercel.app/" // Deployed link
+    },
   {
     name: "Easy Vert",
     description:
