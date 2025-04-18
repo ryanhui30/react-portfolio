@@ -176,7 +176,7 @@ const testimonials = [
 
 const projects = [
     {
-      name: "ProManage",
+      name: "Pro Manage",
       description:
         "Full-stack project management app with team collaboration boards, drag-and-drop features, and project analytics.",
       tags: [
@@ -206,7 +206,7 @@ const projects = [
       deployed_link: "https://main.d1pqkryapw8kiy.amplifyapp.com/" // Deployed link
     },
     {
-      name: "GoatNotes",
+      name: "Goat Notes",
       description:
         "AI-powered notes app with ChatGPT integration. Save notes and get AI summaries, key points, and more.",
       tags: [
