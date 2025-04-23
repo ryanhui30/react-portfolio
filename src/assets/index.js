@@ -39,7 +39,7 @@ import jobit from "./jobit.png";
 
 import tripguide from "./tripguide.png";
 
-
+import flexai from "./flexai.png";
 import promanage from "./promanage.png";
 import goatnotes from "./goatnotes.png";
 import vert from "./vert.png";
@@ -90,6 +90,7 @@ export {
 
   tripguide,
 
+  flexai,
   promanage,
   goatnotes,
   vert,

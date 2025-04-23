@@ -33,6 +33,7 @@ import {
   jobit,
   tripguide,
 
+  flexai,
   promanage,
   goatnotes,
   warriorsgo,
@@ -176,6 +177,45 @@ const testimonials = [
 
 const projects = [
     {
+      name: "Flex AI",
+      description:
+        "An AI fitness coach that learns about the user's needs and goals via live voice call. Creates custom fitness routines and meal plans.",
+      tags: [
+        {
+          name: "next.js",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "react",
+          color: "green-text-gradient",
+        },
+        {
+          name: "vapi",
+          color: "pink-text-gradient",
+        },
+        {
+          name: "convex",
+          color: "orange-text-gradient",
+        },
+        {
+          name: "gemini AI",
+          color: "purple-text-gradient",
+        },
+        {
+          name: "clerk",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "shadcn",
+          color: "green-text-gradient",
+        }
+      ],
+      image: flexai,
+      source_code_link: "https://github.com/ryanhui30/flex-ai",
+      deployed_link: "https://flex-ai-six.vercel.app/",
+    },
+
+    {
       name: "Pro Manage",
       description:
         "Full-stack project management app with team collaboration boards, drag-and-drop features, and project analytics.",
@@ -229,6 +269,10 @@ const projects = [
         {
           name: "prisma",
           color: "purple-text-gradient",
+        },
+        {
+          name: "chatgpt AI",
+          color: "blue-text-gradient",
         },
       ],
       image: goatnotes,
@@ -310,31 +354,6 @@ const projects = [
     ],
     image: pacman,
     source_code_link: "https://github.com/ryanhui30/ai-pacman",
-  },
-  {
-    name: "On Track",
-    description:
-      "Streamlined maintenance tracking system for technicians to manage equipment logs and visualize maintenance metrics.",
-    tags: [
-      {
-        name: "react",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "tailwind css",
-        color: "green-text-gradient",
-      },
-      {
-        name: "typescript",
-        color: "pink-text-gradient",
-      },
-      {
-        name: "next.js",
-        color: "orange-text-gradient",
-      },
-    ],
-    image: maintenance,
-    source_code_link: "https://github.com/ryanhui30/maintenance-tracker",
   },
 ];
 
