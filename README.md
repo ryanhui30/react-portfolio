@@ -45,23 +45,23 @@
   npm run dev
   ```
 
-# Clone repository
+## Clone repository
   ```bash
   git clone https://github.com/ryanhui30/portfolio-3d.git
   cd portfolio-3d
   ```
 
-# Install dependencies
+# #Install dependencies
   ```bash
   npm install
   ```
 
-# Configure environment variables
+## Configure environment variables
 ```cp .env.example .env```
 
-# Add your EmailJS credentials
+## Add your EmailJS credentials
 
-# Run development server
+## Run development server
   ```bash
   npm run dev
   ```
