@@ -39,6 +39,7 @@ import jobit from "./jobit.png";
 
 import tripguide from "./tripguide.png";
 
+import codecraft from "./codecraft.png";
 import flexai from "./flexai.png";
 import promanage from "./promanage.png";
 import goatnotes from "./goatnotes.png";
@@ -90,6 +91,7 @@ export {
 
   tripguide,
 
+  codecraft,
   flexai,
   promanage,
   goatnotes,

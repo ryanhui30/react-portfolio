@@ -33,6 +33,7 @@ import {
   jobit,
   tripguide,
 
+  codecraft,
   flexai,
   promanage,
   goatnotes,
@@ -177,38 +178,32 @@ const testimonials = [
 
 const projects = [
     {
-      name: "Flex AI",
+      name: "CodeCraft",
       description:
-        "An AI fitness coach that learns about the user's needs and goals via live voice call. Creates custom fitness routines and meal plans.",
+        "Collaborative cloud IDE for developers to write, execute, and share code in real-time. Join code discussions and unlock new languages and features with paid pro plan.",
       tags: [
-        {
-          name: "next.js",
-          color: "blue-text-gradient",
-        },
-        {
-          name: "react",
-          color: "green-text-gradient",
-        },
-        {
-          name: "vapi",
-          color: "pink-text-gradient",
-        },
-        {
-          name: "convex",
-          color: "orange-text-gradient",
-        },
-        {
-          name: "gemini AI",
-          color: "purple-text-gradient",
-        },
-        {
-          name: "clerk",
-          color: "blue-text-gradient",
-        },
-        {
-          name: "shadcn",
-          color: "green-text-gradient",
-        }
+        { name: "next.js", color: "blue-text-gradient" },
+        { name: "convex", color: "green-text-gradient" },
+        { name: "clerk", color: "pink-text-gradient" },
+        { name: "tailwind", color: "orange-text-gradient" },
+        { name: "lemon squeezy", color: "purple-text-gradient" },
+        { name: "SaaS", color: "blue-text-gradient" }
+      ],
+      image: codecraft,
+      source_code_link: "https://github.com/ryanhui30/code-craft",
+      deployed_link: "https://code-craft-kappa-lyart.vercel.app/",
+    },
+    {
+      name: "Flex AI",
+      description: "Your AI-powered personal fitness coach that designs custom workout and nutrition plans through natural voice conversations, adapting to your progress in real-time.",
+      tags: [
+        { name: "next.js", color: "blue-text-gradient" },
+        { name: "react", color: "green-text-gradient" },
+        { name: "vapi", color: "pink-text-gradient" },
+        { name: "convex", color: "orange-text-gradient" },
+        { name: "gemini AI", color: "purple-text-gradient" },
+        { name: "clerk", color: "blue-text-gradient" },
+        { name: "shadcn", color: "green-text-gradient" }
       ],
       image: flexai,
       source_code_link: "https://github.com/ryanhui30/flex-ai",
@@ -216,145 +211,59 @@ const projects = [
     },
 
     {
-      name: "Pro Manage",
-      description:
-        "Full-stack project management app with team collaboration boards, drag-and-drop features, and project analytics.",
+      name: "ProManage",
+      description: "Full-stack project command center featuring real-time team collaboration, intuitive drag-and-drop workflows, and powerful performance analytics.",
       tags: [
-        {
-          name: "next.js",
-          color: "blue-text-gradient",
-        },
-        {
-          name: "typescript",
-          color: "green-text-gradient",
-        },
-        {
-          name: "AWS",
-          color: "pink-text-gradient",
-        },
-        {
-          name: "tailwind",
-          color: "orange-text-gradient",
-        },
-        {
-          name: "redux",
-          color: "purple-text-gradient",
-        },
+        { name: "next.js", color: "blue-text-gradient" },
+        { name: "typescript", color: "green-text-gradient" },
+        { name: "AWS", color: "pink-text-gradient" },
+        { name: "tailwind", color: "orange-text-gradient" },
+        { name: "redux", color: "purple-text-gradient" },
       ],
       image: promanage,
-      source_code_link: "https://github.com/ryanhui30/pro-manage", // GitHub link
-      deployed_link: "https://main.d1pqkryapw8kiy.amplifyapp.com/" // Deployed link
+      source_code_link: "https://github.com/ryanhui30/pro-manage",
+      deployed_link: "https://main.d1pqkryapw8kiy.amplifyapp.com/"
     },
     {
       name: "Goat Notes",
-      description:
-        "AI-powered notes app with ChatGPT integration. Save notes and get AI summaries, key points, and more.",
+      description: "AI-enhanced note-taking that automatically generates summaries, key points, and study aids using ChatGPT integration.",
       tags: [
-        {
-          name: "next.js",
-          color: "blue-text-gradient",
-        },
-        {
-          name: "react",
-          color: "green-text-gradient",
-        },
-        {
-          name: "supabase",
-          color: "pink-text-gradient",
-        },
-        {
-          name: "shadcn",
-          color: "orange-text-gradient",
-        },
-        {
-          name: "prisma",
-          color: "purple-text-gradient",
-        },
-        {
-          name: "chatgpt AI",
-          color: "blue-text-gradient",
-        },
+        { name: "next.js", color: "blue-text-gradient" },
+        { name: "react", color: "green-text-gradient" },
+        { name: "supabase", color: "pink-text-gradient" },
+        { name: "shadcn", color: "orange-text-gradient" },
+        { name: "prisma", color: "purple-text-gradient" },
+        { name: "chatgpt AI", color: "blue-text-gradient" },
       ],
       image: goatnotes,
-      source_code_link: "https://github.com/ryanhui30/goat-notes", // GitHub link
-      deployed_link: "https://goat-notes-mu.vercel.app/" // Deployed link
+      source_code_link: "https://github.com/ryanhui30/goat-notes",
+      deployed_link: "https://goat-notes-mu.vercel.app/"
     },
     {
       name: "Warriors Go",
-      description:
-        "App providing real-time game scores, stats, live chat, and news updates using third-party sports APIs.",
+      description: "Real-time Warriors fan app delivering live scores, advanced statistics, fan discussions, and breaking news updates.",
       tags: [
-        {
-          name: "html",
-          color: "blue-text-gradient",
-        },
-        {
-          name: "bootstrap",
-          color: "green-text-gradient",
-        },
-        {
-          name: "flutter",
-          color: "pink-text-gradient",
-        },
-        {
-          name: "javascript",
-          color: "orange-text-gradient",
-        },
-        {
-          name: "firebase",
-          color: "purple-text-gradient",
-        },
+        { name: "html", color: "blue-text-gradient" },
+        { name: "bootstrap", color: "green-text-gradient" },
+        { name: "flutter", color: "pink-text-gradient" },
+        { name: "javascript", color: "orange-text-gradient" },
+        { name: "firebase", color: "purple-text-gradient" },
       ],
       image: warriorsgo,
-      source_code_link: "https://github.com/ryanhui30/warriors-go", // GitHub link
-      deployed_link: "https://warriors-go.vercel.app/" // Deployed link
+      source_code_link: "https://github.com/ryanhui30/warriors-go",
+      deployed_link: "https://warriors-go.vercel.app/"
     },
-  {
-    name: "Easy Vert",
-    description:
-      "Website for users to upload videos and calculate vertical jump height through key frame analysis and slow-motion playback.",
-    tags: [
-      {
-        name: "html",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "css",
-        color: "green-text-gradient",
-      },
-      {
-        name: "python",
-        color: "pink-text-gradient",
-      },
-      {
-        name: "javascript",
-        color: "orange-text-gradient",
-      },
-    ],
-    image: vert,
-    source_code_link: "https://github.com/ryanhui30/vert",
-  },
-  {
-    name: "AI Pacman",
-    description:
-      "Artificial intellgence Pacman model with optimized pathfinding and decision-making for strategic and efficient gameplay.",
-    tags: [
-      {
-        name: "python",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "AI/ML algorithms",
-        color: "green-text-gradient",
-      },
-      {
-        name: "pathfinding",
-        color: "pink-text-gradient",
-      },
-    ],
-    image: pacman,
-    source_code_link: "https://github.com/ryanhui30/ai-pacman",
-  },
+    {
+      name: "AI Pacman",
+      description: "Classic Pacman enhanced with advanced AI pathfinding algorithms that optimize routes and evolve strategic gameplay decisions.",
+      tags: [
+        { name: "python", color: "blue-text-gradient" },
+        { name: "AI/ML algorithms", color: "green-text-gradient" },
+        { name: "pathfinding", color: "pink-text-gradient" },
+      ],
+      image: pacman,
+      source_code_link: "https://github.com/ryanhui30/ai-pacman",
+    }
 ];
 
 export { services, technologies, experiences, testimonials, projects };
