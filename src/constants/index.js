@@ -211,8 +211,8 @@ const projects = [
     },
 
     {
-      name: "ProManage",
-      description: "Full-stack project command center featuring real-time team collaboration, intuitive drag-and-drop workflows, and powerful performance analytics.",
+      name: "Pro Manage",
+      description: "Full-stack project management app featuring real-time team collaboration, intuitive drag-and-drop workflows, and powerful performance analytics.",
       tags: [
         { name: "next.js", color: "blue-text-gradient" },
         { name: "typescript", color: "green-text-gradient" },
