@@ -36,6 +36,7 @@ import {
   codecraft,
   flexai,
   promanage,
+  techtrove,
   goatnotes,
   warriorsgo,
   vert,
@@ -178,7 +179,7 @@ const testimonials = [
 
 const projects = [
     {
-      name: "CodeCraft",
+      name: "Code Craft",
       description:
         "Collaborative cloud IDE for developers to write, execute, and share code in real-time. Join code discussions and unlock new languages and features with paid pro plan.",
       tags: [
@@ -209,21 +210,6 @@ const projects = [
       source_code_link: "https://github.com/ryanhui30/flex-ai",
       deployed_link: "https://flex-ai-six.vercel.app/",
     },
-
-    {
-      name: "Pro Manage",
-      description: "Full-stack project management app featuring real-time team collaboration, intuitive drag-and-drop workflows, and powerful performance analytics.",
-      tags: [
-        { name: "next.js", color: "blue-text-gradient" },
-        { name: "typescript", color: "green-text-gradient" },
-        { name: "AWS", color: "pink-text-gradient" },
-        { name: "tailwind", color: "orange-text-gradient" },
-        { name: "redux", color: "purple-text-gradient" },
-      ],
-      image: promanage,
-      source_code_link: "https://github.com/ryanhui30/pro-manage",
-      deployed_link: "https://main.d1pqkryapw8kiy.amplifyapp.com/"
-    },
     {
       name: "Goat Notes",
       description: "AI-enhanced note-taking that automatically generates summaries, key points, and study aids using ChatGPT integration.",
@@ -238,6 +224,36 @@ const projects = [
       image: goatnotes,
       source_code_link: "https://github.com/ryanhui30/goat-notes",
       deployed_link: "https://goat-notes-mu.vercel.app/"
+    },
+    {
+      name: "Tech Trove",
+      description: "E-commerce platform with product management, 13 customizable themes, and real-time inventory controls. Features security protection and admmin controls.",
+      tags: [
+        { name: "react", color: "blue-text-gradient" },
+        { name: "express.js", color: "green-text-gradient" },
+        { name: "postgreSQL", color: "pink-text-gradient" },
+        { name: "node.js", color: "orange-text-gradient" },
+        { name: "arcjet", color: "purple-text-gradient" },
+        { name: "neon", color: "blue-text-gradient" },
+        { name: "daisyUI", color: "green-text-gradient" }
+      ],
+      image: techtrove,
+      source_code_link: "https://github.com/ryanhui30/tech-trove",
+      deployed_link: "https://tech-trove-mkvw.onrender.com/",
+    },
+    {
+      name: "Pro Manage",
+      description: "Full-stack project management app featuring real-time team collaboration, intuitive drag-and-drop workflows, and powerful performance analytics.",
+      tags: [
+        { name: "next.js", color: "blue-text-gradient" },
+        { name: "typescript", color: "green-text-gradient" },
+        { name: "AWS", color: "pink-text-gradient" },
+        { name: "tailwind", color: "orange-text-gradient" },
+        { name: "redux", color: "purple-text-gradient" },
+      ],
+      image: promanage,
+      source_code_link: "https://github.com/ryanhui30/pro-manage",
+      deployed_link: "https://main.d1pqkryapw8kiy.amplifyapp.com/"
     },
     {
       name: "Warriors Go",

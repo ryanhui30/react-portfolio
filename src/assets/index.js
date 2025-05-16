@@ -43,6 +43,7 @@ import codecraft from "./codecraft.png";
 import flexai from "./flexai.png";
 import promanage from "./promanage.png";
 import goatnotes from "./goatnotes.png";
+import techtrove from "./techtrove.png";
 import vert from "./vert.png";
 import warriorsgo from "./warriorsgo.png";
 import pacman from "./pacman.png";
@@ -95,6 +96,7 @@ export {
   flexai,
   promanage,
   goatnotes,
+  techtrove,
   vert,
   warriorsgo,
   pacman,
