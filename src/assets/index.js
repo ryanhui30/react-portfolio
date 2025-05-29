@@ -41,6 +41,7 @@ import tripguide from "./tripguide.png";
 
 import codecraft from "./codecraft.png";
 import flexai from "./flexai.png";
+import streamify from "./streamify.png";
 import promanage from "./promanage.png";
 import goatnotes from "./goatnotes.png";
 import techtrove from "./techtrove.png";
@@ -94,6 +95,7 @@ export {
 
   codecraft,
   flexai,
+  streamify,
   promanage,
   goatnotes,
   techtrove,

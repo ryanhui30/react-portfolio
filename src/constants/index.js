@@ -35,6 +35,7 @@ import {
 
   codecraft,
   flexai,
+  streamify,
   promanage,
   techtrove,
   goatnotes,
@@ -209,6 +210,22 @@ const projects = [
       image: flexai,
       source_code_link: "https://github.com/ryanhui30/flex-ai",
       deployed_link: "https://flex-ai-six.vercel.app/",
+    },
+    {
+      name: "Streamify",
+      description: "Global language learning platform with real-time chat and voice calling that scales to millions of users. Features friend connections, notifications, and full profile customization with multiple themes.",
+      tags: [
+        { name: "react", color: "blue-text-gradient" },
+        { name: "express.js", color: "green-text-gradient" },
+        { name: "node.js", color: "pink-text-gradient" },
+        { name: "mongodb", color: "orange-text-gradient" },
+        { name: "tanstack query", color: "purple-text-gradient" },
+        { name: "stream API", color: "blue-text-gradient" },
+        { name: "render", color: "green-text-gradient" }
+      ],
+      image: streamify,
+      source_code_link: "https://github.com/ryanhui30/streamify",
+      deployed_link: "https://streamify-2zxt.onrender.com/"
     },
     {
       name: "Goat Notes",
