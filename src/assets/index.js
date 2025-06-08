@@ -40,6 +40,7 @@ import jobit from "./jobit.png";
 import tripguide from "./tripguide.png";
 
 import codecraft from "./codecraft.png";
+import tourvisto from "./tourvisto.png";
 import flexai from "./flexai.png";
 import streamify from "./streamify.png";
 import promanage from "./promanage.png";
@@ -94,6 +95,7 @@ export {
   tripguide,
 
   codecraft,
+  tourvisto,
   flexai,
   streamify,
   promanage,

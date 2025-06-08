@@ -34,6 +34,7 @@ import {
   tripguide,
 
   codecraft,
+  tourvisto,
   flexai,
   streamify,
   promanage,
@@ -185,15 +186,34 @@ const projects = [
         "Collaborative cloud IDE for developers to write, execute, and share code in real-time. Join code discussions and unlock new languages and features with paid pro plan.",
       tags: [
         { name: "next.js", color: "blue-text-gradient" },
-        { name: "convex", color: "green-text-gradient" },
-        { name: "clerk", color: "pink-text-gradient" },
-        { name: "tailwind", color: "orange-text-gradient" },
-        { name: "lemon squeezy", color: "purple-text-gradient" },
-        { name: "SaaS", color: "blue-text-gradient" }
+        { name: "convex-db", color: "green-text-gradient" },
+        { name: "clerk-auth", color: "pink-text-gradient" },
+        { name: "tailwind-css", color: "orange-text-gradient" },
+        { name: "lemon-squeezy", color: "purple-text-gradient" },
+        { name: "saas", color: "blue-text-gradient" }
       ],
       image: codecraft,
       source_code_link: "https://github.com/ryanhui30/code-craft",
       deployed_link: "https://code-craft-kappa-lyart.vercel.app/",
+    },
+    {
+      name: "Tourvisto",
+      description:
+        "Admin dashboard for travel agencies to generate AI-based travel plans, with dynamic charts to track user insights, trends, and growth analytics.",
+      tags: [
+        { name: "react", color: "blue-text-gradient" },
+        { name: "react-router", color: "green-text-gradient" },
+        { name: "tailwind-css", color: "pink-text-gradient" },
+        { name: "syncfusion-ui", color: "orange-text-gradient" },
+        { name: "appwrite", color: "purple-text-gradient" },
+        { name: "gemini-ai", color: "blue-text-gradient" },
+        { name: "typescript", color: "green-text-gradient" },
+        { name: "google-cloud-auth", color: "pink-text-gradient" },
+        { name: "unsplash", color: "orange-text-gradient" },
+      ],
+      image: tourvisto,
+      source_code_link: "https://github.com/ryanhui30/tourvisto",
+      deployed_link: "https://tourvista-xi.vercel.app/sign-in"
     },
     {
       name: "Flex AI",
@@ -202,10 +222,10 @@ const projects = [
         { name: "next.js", color: "blue-text-gradient" },
         { name: "react", color: "green-text-gradient" },
         { name: "vapi", color: "pink-text-gradient" },
-        { name: "convex", color: "orange-text-gradient" },
-        { name: "gemini AI", color: "purple-text-gradient" },
-        { name: "clerk", color: "blue-text-gradient" },
-        { name: "shadcn", color: "green-text-gradient" }
+        { name: "convex-db", color: "orange-text-gradient" },
+        { name: "gemini-ai", color: "purple-text-gradient" },
+        { name: "clerk-auth", color: "blue-text-gradient" },
+        { name: "shadcn-ui", color: "green-text-gradient" }
       ],
       image: flexai,
       source_code_link: "https://github.com/ryanhui30/flex-ai",
@@ -218,9 +238,9 @@ const projects = [
         { name: "react", color: "blue-text-gradient" },
         { name: "express.js", color: "green-text-gradient" },
         { name: "node.js", color: "pink-text-gradient" },
-        { name: "mongodb", color: "orange-text-gradient" },
-        { name: "tanstack query", color: "purple-text-gradient" },
-        { name: "stream API", color: "blue-text-gradient" },
+        { name: "mongo-db", color: "orange-text-gradient" },
+        { name: "tanstack-query", color: "purple-text-gradient" },
+        { name: "stream-api", color: "blue-text-gradient" },
         { name: "render", color: "green-text-gradient" }
       ],
       image: streamify,
@@ -233,10 +253,10 @@ const projects = [
       tags: [
         { name: "next.js", color: "blue-text-gradient" },
         { name: "react", color: "green-text-gradient" },
-        { name: "supabase", color: "pink-text-gradient" },
-        { name: "shadcn", color: "orange-text-gradient" },
+        { name: "supabase-db", color: "pink-text-gradient" },
+        { name: "shadcn-ui", color: "orange-text-gradient" },
         { name: "prisma", color: "purple-text-gradient" },
-        { name: "chatgpt AI", color: "blue-text-gradient" },
+        { name: "chatgpt-ai", color: "blue-text-gradient" },
       ],
       image: goatnotes,
       source_code_link: "https://github.com/ryanhui30/goat-notes",
@@ -248,11 +268,11 @@ const projects = [
       tags: [
         { name: "react", color: "blue-text-gradient" },
         { name: "express.js", color: "green-text-gradient" },
-        { name: "postgreSQL", color: "pink-text-gradient" },
+        { name: "postgre-sql", color: "pink-text-gradient" },
         { name: "node.js", color: "orange-text-gradient" },
         { name: "arcjet", color: "purple-text-gradient" },
-        { name: "neon", color: "blue-text-gradient" },
-        { name: "daisyUI", color: "green-text-gradient" }
+        { name: "neon-db", color: "blue-text-gradient" },
+        { name: "daisy-ui", color: "green-text-gradient" }
       ],
       image: techtrove,
       source_code_link: "https://github.com/ryanhui30/tech-trove",
@@ -264,8 +284,8 @@ const projects = [
       tags: [
         { name: "next.js", color: "blue-text-gradient" },
         { name: "typescript", color: "green-text-gradient" },
-        { name: "AWS", color: "pink-text-gradient" },
-        { name: "tailwind", color: "orange-text-gradient" },
+        { name: "aws", color: "pink-text-gradient" },
+        { name: "tailwind-css", color: "orange-text-gradient" },
         { name: "redux", color: "purple-text-gradient" },
       ],
       image: promanage,
@@ -291,8 +311,9 @@ const projects = [
       description: "Classic Pacman enhanced with advanced AI pathfinding algorithms that optimize routes and evolve strategic gameplay decisions.",
       tags: [
         { name: "python", color: "blue-text-gradient" },
-        { name: "AI/ML algorithms", color: "green-text-gradient" },
+        { name: "ai-algorithms", color: "green-text-gradient" },
         { name: "pathfinding", color: "pink-text-gradient" },
+        { name: "machine-learning", color: "orange-text-gradient" },
       ],
       image: pacman,
       source_code_link: "https://github.com/ryanhui30/ai-pacman",
