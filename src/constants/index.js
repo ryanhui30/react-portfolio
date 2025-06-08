@@ -3,6 +3,7 @@ import {
   backend,
   creator,
   web,
+
   javascript,
   typescript,
   html,
@@ -13,25 +14,20 @@ import {
   nodejs,
   mongodb,
   git,
-  threejs,
   figma,
   docker,
+
+  express,
+  aws,
 
   linkedin,
   github,
   cv,
   link,
 
-  meta,
-  starbucks,
-  tesla,
-  shopify,
   classhook,
   skyit,
-
-  carrent,
-  jobit,
-  tripguide,
+  idx,
 
   codecraft,
   tourvisto,
@@ -41,9 +37,7 @@ import {
   techtrove,
   goatnotes,
   warriorsgo,
-  vert,
   pacman,
-  maintenance,
 
   shahab,
   alexander,
@@ -116,6 +110,10 @@ const technologies = [
     icon: tailwind,
   },
   {
+    name: "Express JS",
+    icon: express,
+  },
+  {
     name: "Node JS",
     icon: nodejs,
   },
@@ -135,6 +133,10 @@ const technologies = [
     name: "docker",
     icon: docker,
   },
+  {
+    name: "AWS",
+    icon: aws,
+  },
 ];
 
 const experiences = [
@@ -152,12 +154,23 @@ const experiences = [
     title: "Backend Engineer Intern",
     company_name: "SkyIT Services",
     icon: skyit,
-    iconBg: "#E6DEDD",
+    iconBg: "#00000",
     date: "June 2024 - September 2024",
     points: [
-      "Developing and optimizing backend software for SkyIT’s cloud-based fleet management solution, increasing software effectiveness.",
+      "Developed and optimized backend software for SkyIT’s cloud-based fleet management solution, increasing software effectiveness.",
     ],
   },
+  {
+    title: "Software Developer Intern",
+    company_name: "IDX Exchange",
+    icon: idx,
+    iconBg: "#FFFFFF",
+    date: "June 2025 - September 2025",
+    points: [
+      "Built full-stack real estate software with third-party APIs, contributing to system design, UI development, and live deployment for clients.",
+    ],
+  }
+
 ];
 
 const testimonials = [
@@ -201,15 +214,13 @@ const projects = [
       description:
         "Admin dashboard for travel agencies to generate AI-based travel plans, with dynamic charts to track user insights, trends, and growth analytics.",
       tags: [
-        { name: "react", color: "blue-text-gradient" },
-        { name: "react-router", color: "green-text-gradient" },
-        { name: "tailwind-css", color: "pink-text-gradient" },
-        { name: "syncfusion-ui", color: "orange-text-gradient" },
-        { name: "appwrite", color: "purple-text-gradient" },
-        { name: "gemini-ai", color: "blue-text-gradient" },
-        { name: "typescript", color: "green-text-gradient" },
-        { name: "google-cloud-auth", color: "pink-text-gradient" },
-        { name: "unsplash", color: "orange-text-gradient" },
+        { name: "react-router", color: "blue-text-gradient" },
+        { name: "tailwind-css", color: "green-text-gradient" },
+        { name: "syncfusion-ui", color: "pink-text-gradient" },
+        { name: "appwrite", color: "orange-text-gradient" },
+        { name: "gemini-ai", color: "purple-text-gradient" },
+        { name: "typescript", color: "blue-text-gradient" },
+        { name: "google-cloud", color: "green-text-gradient" },
       ],
       image: tourvisto,
       source_code_link: "https://github.com/ryanhui30/tourvisto",
@@ -221,7 +232,7 @@ const projects = [
       tags: [
         { name: "next.js", color: "blue-text-gradient" },
         { name: "react", color: "green-text-gradient" },
-        { name: "vapi", color: "pink-text-gradient" },
+        { name: "vapi-ai", color: "pink-text-gradient" },
         { name: "convex-db", color: "orange-text-gradient" },
         { name: "gemini-ai", color: "purple-text-gradient" },
         { name: "clerk-auth", color: "blue-text-gradient" },

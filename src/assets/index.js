@@ -24,20 +24,16 @@ import reactjs from "./tech/reactjs.png";
 import redux from "./tech/redux.png";
 import tailwind from "./tech/tailwind.png";
 import typescript from "./tech/typescript.png";
-import threejs from "./tech/threejs.svg";
 
-import meta from "./company/meta.png";
-import shopify from "./company/shopify.png";
-import starbucks from "./company/starbucks.png";
-import tesla from "./company/tesla.png";
+import express from "./tech/express.svg";
+import aws from "./tech/aws.png";
 
 import classhook from "./company/classhook.png";
 import skyit from "./company/skyit.png";
+import idx from "./company/idx.png";
 
 import carrent from "./carrent.png";
 import jobit from "./jobit.png";
-
-import tripguide from "./tripguide.png";
 
 import codecraft from "./codecraft.png";
 import tourvisto from "./tourvisto.png";
@@ -46,10 +42,8 @@ import streamify from "./streamify.png";
 import promanage from "./promanage.png";
 import goatnotes from "./goatnotes.png";
 import techtrove from "./techtrove.png";
-import vert from "./vert.png";
 import warriorsgo from "./warriorsgo.png";
 import pacman from "./pacman.png";
-import maintenance from "./maintenance.png";
 
 import alexander from "./alexander.png";
 import shahab from "./shahab.png";
@@ -68,6 +62,7 @@ export {
 
   menu,
   close,
+
   css,
   docker,
   figma,
@@ -80,19 +75,13 @@ export {
   redux,
   tailwind,
   typescript,
-  threejs,
 
-  meta,
-  shopify,
-  starbucks,
-  tesla,
+  express,
+  aws,
+
   classhook,
   skyit,
-
-  carrent,
-  jobit,
-
-  tripguide,
+  idx,
 
   codecraft,
   tourvisto,
@@ -101,10 +90,8 @@ export {
   promanage,
   goatnotes,
   techtrove,
-  vert,
   warriorsgo,
   pacman,
-  maintenance,
 
   alexander,
   shahab,
