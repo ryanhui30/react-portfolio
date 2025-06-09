@@ -165,10 +165,11 @@ const experiences = [
     company_name: "IDX Exchange",
     icon: idx,
     iconBg: "#FFFFFF",
-    date: "June 2025 - September 2025",
+    date: "June 2025 - Current",
     points: [
-      "Built full-stack real estate software with third-party APIs, contributing to system design, UI development, and live deployment for clients.",
+      "In progress."
     ],
+    /* "Built full-stack real estate software with third-party APIs, contributing to system design, UI development, and live deployment for clients.", */
   }
 
 ];
