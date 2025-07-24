@@ -147,7 +147,9 @@ const experiences = [
     iconBg: "#383E56",
     date: "June 2023 - October 2023",
     points: [
-      "Implemented UI improvements and security enhancements for ClassHook that increased user monetization and retention.",
+      "Improved website engagement by 20% through modernized UI/UX enhancements, boosting user retention.",
+      "Debugged a file-upload race condition in Rails Active Storage, preventing data corruption for 10K+ users.",
+      "Addressed a security flaw to safeguard sensitive data for teachers and students, ensuring platform compliance with best practices."
     ],
   },
   {
@@ -157,7 +159,9 @@ const experiences = [
     iconBg: "#00000",
     date: "June 2024 - September 2024",
     points: [
-      "Developed and optimized backend software for SkyIT’s cloud-based fleet management solution, increasing software effectiveness.",
+      "Built a Django/Postman test suite validating 500+ REST APIs, reducing regression bugs by 40% in CI/CD.",
+      "Enhanced user account security by implementing bcrypt encryption for password hashing and authentication.",
+      "Implemented and deployed multi-factor SMS authentication, reducing unauthorized login attempts by 30%."
     ],
   },
   {
@@ -165,11 +169,12 @@ const experiences = [
     company_name: "IDX Exchange",
     icon: idx,
     iconBg: "#FFFFFF",
-    date: "June 2025 - Current",
+    date: "June 2025 - Aug 2025",
     points: [
-      "In progress."
+      "Developed a full-stack real estate search app using CRMLS data from the Trestle API and responsive React interfaces.",
+      "Created secure RESTful PHP endpoints for property filtering, detailed views, and  favorites, with JWT authentication.",
+      "Deployed features via cPanel and collaborated in Agile sprints, contributing to code reviews and production releases."
     ],
-    /* "Built full-stack real estate software with third-party APIs, contributing to system design, UI development, and live deployment for clients.", */
   }
 
 ];

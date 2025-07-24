@@ -32,9 +32,6 @@ import classhook from "./company/classhook.png";
 import skyit from "./company/skyit.png";
 import idx from "./company/idx.png";
 
-import carrent from "./carrent.png";
-import jobit from "./jobit.png";
-
 import codecraft from "./codecraft.png";
 import tourvisto from "./tourvisto.png";
 import flexai from "./flexai.png";
